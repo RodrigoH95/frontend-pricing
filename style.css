@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gafata&family=Sigmar+One&display=swap');
 :root {
-  --cl-1: #1c1c1c;
+  --cl-1: #1b1b1b;
   --cl-2: #2e2e2e;
 
   --cl-txt: #16b138;
@@ -210,15 +210,13 @@ footer {
   transform: rotate(30deg);
 }
 
-/* @media screen and (width <= 1024px) {
-  .contenedor-tarjetas {
-    gap: 1.2rem;
-  }
-} */
-
 @media screen and (width <= 820px) {
   header {
     padding: 0 0.5rem;
+  }
+  
+  .nombre {
+    font-size: 25px;
   }
 
   .contenedor-tarjetas {
@@ -231,9 +229,6 @@ footer {
     all: unset;
   }
 
-  .nombre {
-    font-size: 25px;
-  }
 }
 
 @media screen and (width <= 340px) {
