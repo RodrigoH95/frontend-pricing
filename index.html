@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="hamburger.css" />
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+    <title>ClickStream - Planes</title>
+  </head>
+  <body class="flex-col">
+    <header>
+      <div class="marca">
+        <div class="logo">
+          <a href="index.html"
+            ><img
+              src="logo.jpg"
+              alt="Logo de la compañia de streaming ClickStream"
+          /></a>
+        </div>
+        <p class="nombre">ClickStream</p>
+      </div>
+      <input type="checkbox" id="toggle-menu" />
+      <label
+        for="toggle-menu"
+        class="abrir-menu"
+        data-open="☰"
+        data-close="✖"
+      ></label>
+      <nav class="nav-bar">
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Planes</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contenedor-tarjetas">
+        <div class="tarjeta flex-col">
+          <h2 class="tarjeta-titulo">Starter</h2>
+          <div class="precio">ARS1,549/Mes</div>
+          <ul class="tarjeta-items">
+            <li class="tarjeta-item">
+              Acceso a una amplia selección de películas y series populares
+            </li>
+            <li class="tarjeta-item">Transmisión en calidad estándar (SD)</li>
+            <li class="tarjeta-item">Un dispositivo a la vez</li>
+            <li class="tarjeta-item">
+              Experiencia de visualización con anuncios limitados
+            </li>
+            <li class="tarjeta-item">
+              Crea un perfil personalizado para tus preferencias
+            </li>
+          </ul>
+          <button class="tarjeta-boton">Ver</button>
+        </div>
+        <div class="tarjeta flex-col popular" data="Popular">
+          <h2 class="tarjeta-titulo">Plus</h2>
+          <div class="precio">ARS2,699/Mes</div>
+          <ul class="tarjeta-items">
+            <li class="tarjeta-item">
+              Acceso completo a todas las películas, series y contenido
+              exclusivo
+            </li>
+            <li class="tarjeta-item">
+              Disfruta de transmisión en alta definición (HD)
+            </li>
+            <li class="tarjeta-item">
+              Reproducción simultánea en dos dispositivos
+            </li>
+            <li class="tarjeta-item">
+              Experiencia de visualización completamente libre de anuncios
+            </li>
+            <li class="tarjeta-item">
+              Crea perfiles personalizados para cada miembro de la familia
+            </li>
+          </ul>
+          <button class="tarjeta-boton btn-primario">Ver</button>
+        </div>
+        <div class="tarjeta flex-col">
+          <h2 class="tarjeta-titulo popular" data="Recomendado">Premium</h2>
+          <div class="precio">ARS3,899/Mes</div>
+          <ul class="tarjeta-items">
+            <li class="tarjeta-item">
+              Acceso completo a todas las películas, series y contenido
+              exclusivo
+            </li>
+            <li class="tarjeta-item">
+              Transmisión en ultra alta definición 4K
+            </li>
+            <li class="tarjeta-item">
+              Reproducción en hasta cuatro dispositivos simultáneamente
+            </li>
+            <li class="tarjeta-item">
+              Experiencia de visualización completamente libre de anuncios
+            </li>
+            <li class="tarjeta-item">
+              Crea perfiles personalizados para cada miembro de la familia
+            </li>
+            <li class="tarjeta-item">
+              Descarga contenido para verlo sin conexión en dispositivos móviles
+            </li>
+          </ul>
+          <button class="tarjeta-boton btn-primario">Ver</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-info">ClickStream &copy 2023</div>
+    </footer>
+  </body>
+</html>
