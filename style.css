@@ -173,16 +173,11 @@ footer {
 
 .tarjeta-boton {
   border: 1px solid var(--cl-txt);
-  background: var(--cl-2);
-  color: var(--cl-txt2);
+  background: var(--cl-txt);
+  color: var(--cl-2);
   padding: 0.5rem 1.2rem;
   width: 50%;
   font-weight: 900;
-}
-
-.btn-primario {
-  background: var(--cl-txt);
-  color: var(--cl-2);
 }
 
 .tarjeta-boton:hover {
